@@ -1,0 +1,10 @@
+-   id: ty
+    name: ty
+    description: ''
+    entry: ty check
+    language: python
+    'types': [python]
+    args: []
+    require_serial: false
+    additional_dependencies: []
+    minimum_pre_commit_version: '0'
