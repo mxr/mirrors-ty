@@ -30,4 +30,3 @@ Add this to your `.pre-commit-config.yaml`:
     hooks:
     -   id: sync-typing-deps
 ```
-
