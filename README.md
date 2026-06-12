@@ -30,3 +30,5 @@ Add this to your `.pre-commit-config.yaml`:
     hooks:
     -   id: sync-typing-deps
 ```
+
+If you don't want to manage dependencies, and you're OK with dynamically installing dependencies during runtime, check out the official hook at https://github.com/astral-sh/ty-pre-commit
