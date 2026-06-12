@@ -1,9 +1,3 @@
-> [!NOTE]
-> This is archived in favor of https://github.com/astral-sh/ty-pre-commit
-
-<details>
-  <summary>Click here to view the README (before archive)</summary>
-
 ty mirror
 ============================
 
@@ -36,5 +30,3 @@ Add this to your `.pre-commit-config.yaml`:
     hooks:
     -   id: sync-typing-deps
 ```
-
-</details>
