@@ -5,7 +5,7 @@ Mirror of ty for pre-commit. Created with [pre-commit-mirror-maker](https://gith
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
 
-For ty: see https://pypi.org/project/openapi-generator-cli/
+For ty: see https://github.com/astral-sh/ty
 
 ### Using ty with pre-commit
 
