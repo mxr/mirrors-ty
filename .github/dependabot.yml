@@ -1,12 +1,19 @@
 version: 2
-updates:
-  - package-ecosystem: github-actions
-    directory: /
+
+multi-ecosystem-groups:
+  default:
     schedule:
-      interval: weekly
-    groups:
-      github-actions:
-        patterns:
-          - "*"
-    cooldown:
-      default-days: 7
+      interval: every day at 7am
+
+updates:
+- package-ecosystem: github-actions
+  directory: /
+  patterns:
+  - '*'
+  groups:
+    github-actions:
+      patterns:
+      - '*'
+  cooldown:
+    default-days: 7
+  multi-ecosystem-group: default
