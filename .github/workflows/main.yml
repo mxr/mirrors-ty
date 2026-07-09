@@ -25,7 +25,7 @@ jobs:
     - run: git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
     - run: pre-commit-mirror . --language python --package-name ty --id ty --entry 'ty check' --types python
     - run: |
-        git remote set-url origin https://x-access-token:$GH_TOKEN@github.com/$GITHUB_REPOSITORY
+        git remote set-url origin "https://x-access-token:$GH_TOKEN@github.com/$GITHUB_REPOSITORY"
         git push origin HEAD:refs/heads/main --tags
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
