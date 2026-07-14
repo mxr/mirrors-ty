@@ -3,6 +3,8 @@ repos:
   rev: v6.0.0
   hooks:
   - id: end-of-file-fixer
+  - id: pretty-format-json
+    args: [--autofix, --indent=2]
   - id: trailing-whitespace
 - repo: https://github.com/zizmorcore/zizmor-pre-commit
   rev: v1.26.1
