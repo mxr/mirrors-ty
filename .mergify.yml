@@ -8,9 +8,9 @@ pull_request_rules:
     merge:
       method: squash
 
-- name: automatic merge for renovate updates
+- name: automatic merge for dependabot updates
   conditions:
-  - author=renovate[bot]
+  - author=dependabot[bot]
   actions:
     merge:
       method: squash
