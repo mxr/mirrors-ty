@@ -1,5 +1,5 @@
 -   id: ty
-    name: ty
+    name: 'ty'
     description: ''
     entry: ty check
     language: python
