@@ -6,14 +6,14 @@ repos:
   - id: pretty-format-json
     args: [--autofix, --indent=2]
   - id: trailing-whitespace
-- repo: https://github.com/zizmorcore/zizmor-pre-commit
-  rev: v1.28.0
-  hooks:
-  - id: zizmor
-    args: [--no-progress, --fix]
 - repo: https://github.com/rhysd/actionlint
   rev: 914e7df21a07ef503a81201c76d2b11c789d3fca  # frozen: v1.7.12
   hooks:
   - id: actionlint
     additional_dependencies:
     - github.com/wasilibs/go-shellcheck/cmd/shellcheck@latest
+- repo: https://github.com/zizmorcore/zizmor-pre-commit
+  rev: v1.28.0
+  hooks:
+  - id: zizmor
+    args: [--no-progress, --fix]
