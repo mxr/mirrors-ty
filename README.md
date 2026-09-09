@@ -1,7 +1,7 @@
-ty mirror
-============================
+# ty mirror
 
-Mirror of ty for pre-commit. Created with [pre-commit-mirror-maker](https://github.com/pre-commit/pre-commit-mirror-maker).
+Mirror of ty for pre-commit. Created with
+[pre-commit-mirror-maker](https://github.com/pre-commit/pre-commit-mirror-maker).
 
 For pre-commit: see https://github.com/pre-commit/pre-commit
 
@@ -18,7 +18,9 @@ Add this to your `.pre-commit-config.yaml`:
     -   id: ty
 ```
 
-`ty` will run in `pre-commit's` virtual env so it won't find your project dependencies by default. To work around that, override `additional_dependencies` with your dependencies. You can also automatically keep the list up to date by using the https://github.com/mxr/sync-typing-deps hook (which uses heuristics).
+`ty` will run in `pre-commit's` virtual env so it won't find your project dependencies by default. To work around that,
+override `additional_dependencies` with your dependencies. You can also automatically keep the list up to date by using
+the https://github.com/mxr/sync-typing-deps hook (which uses heuristics).
 
 ```yaml
 -   repo: https://github.com/mxr/mirrors-ty
@@ -31,4 +33,5 @@ Add this to your `.pre-commit-config.yaml`:
     -   id: sync-typing-deps
 ```
 
-If you don't want to manage dependencies, and you're OK with dynamically installing dependencies during runtime, check out the official hook at https://github.com/astral-sh/ty-pre-commit
+If you don't want to manage dependencies, and you're OK with dynamically installing dependencies during runtime, check
+out the official hook at https://github.com/astral-sh/ty-pre-commit

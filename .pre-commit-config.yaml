@@ -1,4 +1,11 @@
 repos:
+- repo: https://github.com/hukkin/mdformat
+  rev: 2d496dbc18e31b83a1596685347ffe0b6041daf0  # frozen: 1.0.0
+  hooks:
+  - id: mdformat
+    args: [--number, --wrap, '120']
+    additional_dependencies:
+    - mdformat-gfm
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v6.0.0
   hooks:
