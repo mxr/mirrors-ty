@@ -1,5 +1,5 @@
 stack: [mirror]
 opt:
   mirror:
-    preCommitMirrorMaker:
+    pre-commit-mirror-maker:
       command: pre-commit-mirror . --language python --package-name ty --id ty --entry 'ty check' --types python
