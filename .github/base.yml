@@ -1,4 +1,4 @@
 stack: [mirror]
 opt:
   mirror:
-    command: pre-commit-mirror . --language python --package-name ty --id ty --entry 'ty check' --types python
+    command: pre-commit-mirror . --language python --package-name ty --id ty --entry 'ty check --fix' --types python
