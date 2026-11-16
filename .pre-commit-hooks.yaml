@@ -1,7 +1,7 @@
 -   id: ty
     name: 'ty'
     description: ''
-    entry: ty check
+    entry: ty check --fix
     language: python
     'types': [python]
     args: []
